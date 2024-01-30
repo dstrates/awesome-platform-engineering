@@ -44,7 +44,7 @@ A curated list of amazingly awesome tools, resources and various shiny things.
     - [Kubernetes IAM](#kubernetes-iam)
     - [Kubernetes security posture management](#kubernetes-security-posture-management)
     - [Kubernetes runtime security](#kubernetes-runtime-security)
-      - [Kubernetes SAST](#kubernetes-sast)
+    - [Kubernetes static analysis](#kubernetes-static-analysis)
     - [Kubernetes local development](#kubernetes-local-development)
     - [Kubernetes testing](#kubernetes-testing)
   - [Linting](#linting)
@@ -177,12 +177,11 @@ A curated list of amazingly awesome tools, resources and various shiny things.
 -  [in-toto](https://github.com/in-toto/in-toto) -  a framework to protect supply chain integrity.
 -  [notary](https://github.com/notaryproject/notary) - project that allows anyone to have trust over arbitrary collections of data
 
-
 ## Bug tracking
 
 *Bug tracking, triage and remediation tools.*
 
-- https://bugasura.io/
+- [Bugasura](https://bugasura.io/) - AI-powered issue tracker
 
 ## Chaos engineering
 
@@ -450,7 +449,7 @@ A curated list of amazingly awesome tools, resources and various shiny things.
 -   [inspektor-gadget](https://github.com/inspektor-gadget/inspektor-gadget) - eBPF security inspection tool
 -   [Mizu](https://github.com/up9inc/mizu/tree/main) (OSS) - API traffic viewer for Kubernetes enabling you to view all API communication between microservices. Think TCPDump and Wireshark re-invented for Kubernetes
 
-#### Kubernetes SAST
+### Kubernetes static analysis
 
 -   [KubeLinter](https://github.com/stackrox/kube-linter) (OSS) - static analysis tool that checks Kubernetes YAML files and Helm charts
 -   [Trivy](https://github.com/aquasecurity/trivy) (OSS) - Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more
@@ -462,7 +461,7 @@ A curated list of amazingly awesome tools, resources and various shiny things.
 
 -   [Oktekto](https://github.com/okteto/okteto) - Develop your applications directly in your Kubernetes Cluster
 -   [Tilt](https://github.com/tilt-dev/tilt) - Define your dev environment as code. For microservice apps on Kubernetes
--   [Garden](https://github.com/garden-io/garden) - Automation for Kubernetes development and testing. Spin up production-like environments for development, testing, and CI on demand
+-   [Garden](https://github.com/garden-io/garden) - Spin up production-like environments for development, testing, and CI on demand
 -   [Telepresence](https://github.com/telepresenceio/telepresence) - Local development against a remote Kubernetes or OpenShift cluster
 -   [Skaffold](https://github.com/GoogleContainerTools/skaffold) - Easy and Repeatable Kubernetes Development
 
