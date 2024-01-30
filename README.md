@@ -23,8 +23,8 @@ A curated list of amazingly awesome tools, resources and various shiny things.
   - [Chat and ChatOps](#chat-and-chatops)
   - [Cloud cost management](#cloud-cost-management)
   - [Cloud asset inventory](#cloud-asset-inventory)
-  - [Continuous Deployment](#continuous-deployment)
-  - [Continuous Integration](#continuous-integration)
+  - [Continuous deployment](#continuous-deployment)
+  - [Continuous integration](#continuous-integration)
   - [Dashboards as code](#dashboards-as-code)
   - [Dependency management](#dependency-management)
   - [Diagrams as code](#diagrams-as-code)
@@ -239,15 +239,15 @@ A curated list of amazingly awesome tools, resources and various shiny things.
 -   [saw](https://github.com/TylerBrock/saw) (OSS) - Fast, multi-purpose tool for searching AWS CloudWatch Logs
 -   [magpie](https://github.com/openraven/magpie) (OSS) - Magpie is a free, open-source framework and a collection of community developed plugins that can be used to build complete end-to-end security tools such as a CSPM
 
-## Continuous Deployment
+## Continuous deployment
 
-*Platforms that enable declarative continuous deployment aka GitOps.*
+*Tools that enable declarative continuous deployment aka GitOps.*
 
 -   [ArgoCD](https://github.com/argoproj/argo-cd) (OSS) - Declarative continuous deployment for Kubernetes
 -   [Flux](https://github.com/fluxcd/flux2) (OSS) - Open and extensible continuous delivery solution for Kubernetes
 -   [dagger](https://dagger.io/) - programmable CI/CD engine that runs your pipelines in containers
 
-## Continuous Integration
+## Continuous integration
 
 -   [Spacelift](https://spacelift.io/) - Spacelift is a sophisticated CI/CD platform for Terraform, CloudFormation, Pulumi, and Kubernetes
 -   [atlantis](https://www.runatlantis.io/) -Terraform Pull Request Automation
@@ -585,7 +585,7 @@ A curated list of amazingly awesome tools, resources and various shiny things.
 -   [Locust](https://locust.io/) - modern load testing in Python (OSS)
 -   [LoadRunner](https://software.microfocus.com/en-us/products/loadrunner-load-testing/overview) - Load testing tool from Micro Focus
 -   [TCPCopy](https://github.com/session-replay-tools/tcpcopy) - TCP stream replay tool to support real testing of Internet server applications
--   [Siege](https://www.joedog.org/siege-home/) - Siege is an http load testing and benchmarking utility
+-   [Siege](https://www.joedog.org/siege-home/) - HTTP load testing and benchmarking utility
 -   [Wrk](https://github.com/wg/wrk) - Modern HTTP benchmarking tool
 -   [Web Bench](http://home.tiscali.cz/~cz210552/webbench.html) - Web Bench is very simple tool for benchmarking WWW or proxy servers
 
@@ -598,7 +598,7 @@ See: https://rosslazer.com/posts/use-it-or-lose-it-p1/
 -   [OpenMeter](https://github.com/openmeterio/openmeter) - Usage Metering for AI, DevOps, and Billing. Built for engineers to collect and aggregate millions of events in real-time
 -   [Amberflo](https://www.amberflo.io/) - Amberflo provides the most advanced and comprehensive platform for building and deploying usage-based pricing
 -   [Stigg](https://www.stigg.io) - Instantly build any pricing plan, gauge access control, introduce paywalls and customer portals
--   [Lago](https://github.com/getlago/lago) - Open Source Metering and Usage Based Billing. The best alternative to Chargebee, Recurly or Stripe Billing
+-   [Lago](https://github.com/getlago/lago) - Open Source Metering and Usage Based Billing
 -   [Ordway](https://ordwaylabs.com/products/usage-based-billing-software/) - Invoice based upon consumption of cloud services
 -   [Metronome](https://metronome.com/)
 -   [octane](https://www.getoctane.io/)
