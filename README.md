@@ -40,6 +40,7 @@ A curated list of amazingly awesome tools, resources and various shiny things.
   - [Identity and access management](#identity-and-access-management)
   - [IAC generation](#iac-generation)
   - [Internal developer platform](#internal-developer-platform)
+  - [Kafka](#kafka)
   - [Kubernetes](#kubernetes)
     - [Kubernetes IAM](#kubernetes-iam)
     - [Kubernetes security posture management](#kubernetes-security-posture-management)
@@ -413,6 +414,14 @@ A curated list of amazingly awesome tools, resources and various shiny things.
 -   [Garden](https://github.com/garden-io/garden) (OSS) - simplify Kubernetes delivery
 -   [Massdriver](https://www.massdriver.cloud/) - visual IDP that enables engineers to deploy production-ready cloud infrastructure and applications in minutes
 
+## Kafka
+
+*Apache Kafka management tools.*
+
+-   [burrow](https://github.com/linkedin/Burrow) - Kafka Consumer Lag Checking
+-   [schema-registry](https://github.com/confluentinc/schema-registry) - Confluent Schema Registry for Kafka
+-   [topicctl](https://github.com/segmentio/topicctl) - Tool for declarative management of Kafka topics
+
 ## Kubernetes
 
 *Kubernetes management tools.*
@@ -534,6 +543,7 @@ A curated list of amazingly awesome tools, resources and various shiny things.
 -   [sops](https://github.com/mozilla/sops) - Simple and flexible tool for managing secrets
 -   [deepsecrets](https://github.com/avito-tech/deepsecrets) - Secrets scanner that understands code
 -   [doppler](https://www.doppler.com/) - Platform for Secrets management
+-   [chamber](https://github.com/segmentio/chamber) - CLI for managing secrets
 
 ## Service catalogue
 
