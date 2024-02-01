@@ -1,11 +1,11 @@
 # Awesome Platform Engineering
 
-A curated list of amazingly awesome tools, resources and various shiny things.
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) 
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
-## Table of contents
+A curated list of amazingly awesome Platform tools, resources and various shiny things.
 
 - [Awesome Platform Engineering](#awesome-platform-engineering)
-  - [Table of contents](#table-of-contents)
   - [Analytics](#analytics)
   - [Application Security](#application-security)
     - [API Fuzzing](#api-fuzzing)
