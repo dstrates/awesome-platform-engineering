@@ -477,6 +477,7 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
 ### Kubernetes testing
 
 -   [Testkube](https://github.com/kubeshop/testkube) (OSS) - Kubernetes-native framework for test definition and execution
+-   [Kuberhealthy](https://github.com/kuberhealthy/kuberhealthy (OSS) - A Kubernetes operator for running synthetic checks as pods
 
 ## Linting
 
