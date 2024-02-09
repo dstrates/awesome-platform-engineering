@@ -388,7 +388,7 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
 -   [CloudTracker](https://github.com/duo-labs/cloudtracker) - CloudTracker helps you find over-privileged IAM users and roles by comparing CloudTrail logs with current IAM policies
 -   [Cloudsplaining](https://github.com/salesforce/cloudsplaining) - AWS IAM Security Assessment tool that identifies violations of least privilege and generates a risk-prioritized report
 -   [Parliament](https://github.com/duo-labs/parliament) - AWS IAM policy linter
--   [PMapper](https://github.com/nccgroup/PMapper) - AWS IAM privilige escalation mapping
+-   [PMapper](https://github.com/nccgroup/PMapper) - AWS IAM privilege escalation mapping
 -   [Policy Sentry](https://github.com/salesforce/policy_sentry) - IAM Least Privilege Policy Generator
 
 ## IAC generation
@@ -448,7 +448,7 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
 -   [hardeneks](https://github.com/aws-samples/hardeneks) - Runs checks to see if an EKS cluster follows EKS Best Practices
 -   [kbom](https://github.com/ksoclabs/kbom) - SBOM for Kubernetes
 -   [sealed-secrets](https://github.com/bitnami-labs/sealed-secrets) - A Kubernetes controller and tool for one-way encrypted Secrets
--   [external-secrets](https://github.com/external-secrets/external-secrets) - External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets.
+-   [external-secrets](https://github.com/external-secrets/external-secrets) - External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets
 
 ### Kubernetes runtime security
 
@@ -523,12 +523,12 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
 *Declare policies in a high-level programming language so you can version, test and automatically deploy them.*
 
 -   [Cyral](https://cyral.com/blog/unlocking-security-as-code-by-using-github-for-managing-cyral-policies/)
--   Kyverno (OSS) - Policy-as-Code engine for Kubernetes. Enterprise support available
--   [Datree](https://www.datree.io/) (OSS) - Policy-as-Code engine for Kubernetes. Enterprise support available
--   [Magtape](https://github.com/tmobile/magtape) (OSS) - Policy-as-Code engine for Kubernetes
+-   Kyverno (OSS) - Policy as code engine for Kubernetes. Enterprise support available
+-   [Datree](https://www.datree.io/) (OSS) - Policy as code engine for Kubernetes. Enterprise support available
+-   [Magtape](https://github.com/tmobile/magtape) (OSS) - Policy as code engine for Kubernetes
 -   [OPA Gatekeeper](https://github.com/open-policy-agent/gatekeeper) - Gatekeeper is a Policy Controller for Kubernetes
 -   [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian) - Rules engine for cloud security, cost optimization, and governance, DSL in yaml for policies to query, filter, and take actions on resources
--   [Hashicorp Sentinel](https://www.hashicorp.com/sentinel) - Policy as code framework for HashiCorp Enterprise Products.
+-   [Hashicorp Sentinel](https://www.hashicorp.com/sentinel) - Policy as code framework for HashiCorp Enterprise Products
 
 ## Secrets management
 
@@ -559,9 +559,9 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
 
 *A collection of tools to help with sharing knowledge and telling the story in Markdown, AsciiDoc or RestructuredText.*
 
--   [Gitbook](https://github.com/GitbookIO/gitbook) - modern documentation format and toolchain using Git and Markdown.
+-   [Gitbook](https://github.com/GitbookIO/gitbook) - modern documentation format and toolchain using Git and Markdown
 -   [Mintlify](https://mintlify.com/) - modern standard for public facing documentation
--   [Docusaurus](https://github.com/facebook/docusaurus) - easy to maintain open source documentation websites.
+-   [Docusaurus](https://github.com/facebook/docusaurus) - easy to maintain open source documentation websites
 -   [Docsify](https://github.com/docsifyjs/docsify/) - a magical documentation site generator
 -   [MkDocs](https://github.com/mkdocs/mkdocs/) - project documentation with Markdown
 -   [Obsidian](https://obsidian.md/) - markdown knowledge base
