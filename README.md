@@ -371,7 +371,7 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
 
 ### Hook management tools
 
--   [pre-commit](http://pre-commit.com/) - a framework for managing and maintaining multi-language pre-commit hooks from Yelp. Extensive support for multiple programming language
+-   [pre-commit](http://pre-commit.com/) - a framework for managing and maintaining multi-language pre-commit hooks from Yelp
 -   [Overcommit](https://github.com/brigade/overcommit/) - an extendable Git hook manager written with Ruby
 -   [quickhook](https://github.com/dirk/quickhook/) - a fast, Unix'y, opinionated Git hook runner
 -   [husky](https://github.com/typicode/husky) - Git hooks for Node.js, manage your hooks from your package.json
