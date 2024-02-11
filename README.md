@@ -1,6 +1,6 @@
 # Awesome Platform Engineering
 
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) 
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 A curated list of amazingly awesome Platform tools, resources and various shiny things.
@@ -38,7 +38,9 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
     - [Build systems \& dependency management tools](#build-systems--dependency-management-tools)
     - [Hook management tools](#hook-management-tools)
   - [Identity and access management](#identity-and-access-management)
-  - [IAC generation](#iac-generation)
+  - [Infrastructure as code](#infrastructure-as-code)
+    - [Infrastructure as code generation](#infrastructure-as-code-generation)
+    - [Infrastructure from code](#infrastructure-from-code)
   - [Internal developer platform](#internal-developer-platform)
   - [Kafka](#kafka)
   - [Kubernetes](#kubernetes)
@@ -51,6 +53,7 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
   - [Linting](#linting)
     - [Terraform](#terraform)
     - [Regex](#regex)
+  - [Observability](#observability)
   - [Platform as a Service](#platform-as-a-service)
   - [Policy as code](#policy-as-code)
   - [Secrets management](#secrets-management)
@@ -251,11 +254,13 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
 ## Continuous integration
 
 -   [Spacelift](https://spacelift.io/) - Spacelift is a sophisticated CI/CD platform for Terraform, CloudFormation, Pulumi, and Kubernetes
--   [atlantis](https://www.runatlantis.io/) -Terraform Pull Request Automation
+-   [atlantis](https://www.runatlantis.io/) - Terraform Pull Request Automation
 -   [scalr](https://www.scalr.com/) - Terraform Cloud alternative
 -   [env0](https://www.env0.com/) - Manage, deploy, scale, and control all your Terraform, Terragrunt, Pulumi, and related frameworks
 -   [batect](https://github.com/batect/batect) - Build And Testing Environments as Code Tool
 -   [autorelease](https://github.com/intuit/auto) - Release automation for GitHub
+-   [cashapp/hermit](https://github.com/cashapp/hermit) - consistent tooling across environments
+-   [meta/hermit](https://github.com/facebookexperimental/hermit) - hermetically isolated sandboxes to control program execution
 
 ## Dashboards as code
 
@@ -362,6 +367,7 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
 -   [buck2](https://github.com/facebook/buck2) - Buck2 is a fast, hermetic, multi-language build system designed by Meta
 -   [pants](https://github.com/pantsbuild/pants) - a monorepo-oriented build system, used by Twitter, Foursquare and multiple other companies
 -   [Lerna](https://lerna.js.org/) - Lerna is a tool for managing JavaScript projects with multiple packages, built on Yarn
+-   [Devbox](https://github.com/jetpack-io/devbox) - command-line tool that lets you easily create isolated shells for development
 
 ### Hook management tools
 
@@ -391,15 +397,31 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
 -   [PMapper](https://github.com/nccgroup/PMapper) - AWS IAM privilege escalation mapping
 -   [Policy Sentry](https://github.com/salesforce/policy_sentry) - IAM Least Privilege Policy Generator
 
-## IAC generation
+## Infrastructure as code
 
-*Generate Infrastructure as Code from existing manually-created cloud resources.*
+-   [Terraform](https://github.com/hashicorp/terraform) - Terraform is a tool for building, changing, and versioning infrastructure
+-   [OpenTofu](https://github.com/opentofu/opentofu) - OSS Terraform fork that lets you declaratively manage your cloud infrastructure
+-   [AWS CDK](https://github.com/aws/aws-cdk) - The AWS Cloud Development Kit is a framework for defining cloud infrastructure in code
+-   [Pulumi](https://github.com/pulumi/pulumi) - Infrastructure as Code in any programming language
+-   [sst](https://github.com/sst/sst) - Build modern full-stack applications on AWS
+-   [ion](https://github.com/sst/ion) - ❍ — an experimental new engine for SST
+-   [Sceptre](https://github.com/Sceptre/sceptre) - sceptre is a tool to drive AWS CloudFormation
+
+### Infrastructure as code generation
+
+*Generate infrastucture code from existing manually-created cloud resources.*
 
 -   [Former2](https://github.com/iann0036/former2) - generate CloudFormation/Terraform from existing AWS resources
 -   [Terraformer](https://github.com/GoogleCloudPlatform/terraformer) - CLI tool to generate terraform files from existing infrastructure
 -   [Terracognita](https://github.com/cycloidio/terracognita) - generates Terraform from existing AWS resources
 -   [Firefly](https://www.gofirefly.io/pricing) - Cloud asset management solution
 -   [k2tf](https://github.com/sl1pm4t/k2tf) - Kubernetes YAML to Terraform HCL converter
+
+### Infrastructure from code
+
+*Generate infrastructure code from application code or runtime.*
+
+-   [nitric](https://www.github.com/nitrictech/nitric) - multi-language framework for cloud applications with infrastructure from code
 
 ## Internal developer platform
 
@@ -503,6 +525,16 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
 ### Regex
 
 -   [AutoRegex](https://www.autoregex.xyz/) - convert english to regex
+
+## Observability
+
+*Platforms and tools that help provide visibility into modern distributed applications.*
+
+-   [vector](https://github.com/vectordotdev/vector) - A high-performance observability data pipeline
+-   [datadog](https://www.datadoghq.com/) - leading ($$$$) monitoring and security platform
+-   [kiali](https://github.com/kiali/kiali) - observability for the Istio service mesh
+-   [cilium](https://github.com/cilium/cilium) - eBPF-based Networking, Security, and Observability
+-   [thanos](https://github.com/thanos-io/thanos) - Highly available Prometheus setup with long term storage capabilities
 
 ## Platform as a Service
 
