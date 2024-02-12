@@ -17,7 +17,7 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
     - [Supply chain security](#supply-chain-security)
     - [Threat modelling](#threat-modelling)
   - [API Linting](#api-linting)
-  - [Artefact signing and attestation](#artefact-signing-and-attestation)
+  - [Artifact signing and attestation](#artifact-signing-and-attestation)
   - [Bug tracking](#bug-tracking)
   - [Chaos engineering](#chaos-engineering)
   - [Chat and ChatOps](#chat-and-chatops)
@@ -174,7 +174,11 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
 -   [openapi-diff](https://github.com/OpenAPITools/openapi-diff) - Utility for comparing two OpenAPI specifications.
 -  [openapi-generator](https://github.com/openapitools/openapi-generator)- OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)
 
-## Artefact signing and attestation
+## Artifact signing and attestation
+
+*Sign, attest and verify artifacts.*
+
+See: [SLSA: Software Attestations](https://slsa.dev/attestation-model)
 
 -  [Cosign](https://github.com/sigstore/cosign) - Container Signing
 -  [grafeas](https://github.com/grafeas/grafeas) - Artifact Metadata API
@@ -443,6 +447,7 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
 -   [burrow](https://github.com/linkedin/Burrow) - Kafka Consumer Lag Checking
 -   [schema-registry](https://github.com/confluentinc/schema-registry) - Confluent Schema Registry for Kafka
 -   [topicctl](https://github.com/segmentio/topicctl) - Tool for declarative management of Kafka topics
+-   [kaf](https://github.com/birdayz/kaf) - Modern CLI for Apache Kafka, written in Go
 
 ## Kubernetes
 
@@ -464,7 +469,7 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
 -   [pluto](https://github.com/FairwindsOps/pluto) (OSS) - A cli tool to help discover deprecated apiVersions in Kubernetes
 -   [kubent](https://github.com/doitintl/kube-no-trouble) (OSS) - Easily check your clusters for use of deprecated APIs
 -   [Popeye](https://github.com/derailed/popeye) (OSS) - A Kubernetes cluster resource sanitizer
--   [kube-bench](https://github.com/aquasecurity/kube-bench)(OSS) - Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark
+-   [kube-bench](https://github.com/aquasecurity/kube-bench) (OSS) - Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark
 -   [kube-no-trouble](https://github.com/doitintl/kube-no-trouble) - Easily check your clusters for use of deprecated APIs
 -   [nova](https://github.com/FairwindsOps/Nova) (OSS) - Find outdated or deprecated Helm charts running in your cluster
 -   [hardeneks](https://github.com/aws-samples/hardeneks) - Runs checks to see if an EKS cluster follows EKS Best Practices
@@ -636,7 +641,7 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
 
 *Tools that help with managing usage-based pricing.*
 
-See: https://rosslazer.com/posts/use-it-or-lose-it-p1/
+See: [Use It or Lose It: Why Usage-Based Pricing](https://rosslazer.com/posts/use-it-or-lose-it-p1/)
 
 -   [OpenMeter](https://github.com/openmeterio/openmeter) - Usage Metering for AI, DevOps, and Billing. Built for engineers to collect and aggregate millions of events in real-time
 -   [Amberflo](https://www.amberflo.io/) - Amberflo provides the most advanced and comprehensive platform for building and deploying usage-based pricing
