@@ -176,10 +176,12 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
 
 ## Artifact signing and attestation
 
-*Sign, attest and verify artifacts. See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)*
+*Sign, attest and verify artifacts to protect your software supply chain.*
 
--  [Cosign](https://github.com/sigstore/cosign) - Container Signing
--  [grafeas](https://github.com/grafeas/grafeas) - Artifact Metadata API
+See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
+
+-  [Cosign](https://github.com/sigstore/cosign) - code signing and transparency for containers and binaries
+-  [grafeas](https://github.com/grafeas/grafeas) - Artifact Metadata API to audit and govern software supply chains
 -  [in-toto](https://github.com/in-toto/in-toto) -  a framework to protect supply chain integrity
 -  [notary](https://github.com/notaryproject/notary) - project that allows anyone to have trust over arbitrary collections of data
 
