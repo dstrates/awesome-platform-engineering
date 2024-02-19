@@ -27,6 +27,7 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
   - [Continuous integration](#continuous-integration)
   - [Dashboards as code](#dashboards-as-code)
   - [Dependency management](#dependency-management)
+    - [Build systems](#build-systems)
   - [Diagrams as code](#diagrams-as-code)
   - [Docker](#docker)
     - [Shell into containers](#shell-into-containers)
@@ -35,7 +36,6 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
   - [Git Tools](#git-tools)
     - [Polyrepo operations tools](#polyrepo-operations-tools)
     - [Repository management tools](#repository-management-tools)
-    - [Build systems \& dependency management tools](#build-systems--dependency-management-tools)
     - [Hook management tools](#hook-management-tools)
   - [Identity and access management](#identity-and-access-management)
   - [Infrastructure as code](#infrastructure-as-code)
@@ -277,14 +277,24 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 
 ## Dependency management
 
-*Manage software dependencies and package versions.*
+*Manage development environments, software dependencies and package versions.*
 
 -   [Poetry](https://python-poetry.org/) (OSS) - Python packaging and dependency management
 -   [Renovate](https://github.com/renovatebot/renovate) (OSS) - Universal dependency update tool that fits into your workflows
 -   [Dependabot](https://github.com/dependabot/dependabot-core) (OSS) - Automating dependency updates in multiple languages
 -   [configrd](https://configrd.io/) - Sync configurations such as environment variables, application properties and secrets across build pipelines, services and environments
--   [tfenv](https://github.com/tfutils/tfenv)(OSS) - Terraform version manager based on rbenv
--   flower (OSS) - Terraform version manager
+-   [tfenv](https://github.com/tfutils/tfenv) (OSS) - Terraform version manager based on rbenv
+-   [asdf](https://github.com/asdf-vm/asdf) (OSS) - Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more
+-   [mise](https://github.com/jdx/mise) (OSS) - development environment setup tool that manages dev tools, runtimes, envvars and task runners
+-   [Devbox](https://github.com/jetpack-io/devbox) - command-line tool that lets you easily create isolated shells for development
+-   [spack](https://github.com/spack/spack) - A flexible package manager that supports multiple versions, configurations, platforms, and compilers
+-   [Lerna](https://lerna.js.org/) - Lerna is a tool for managing JavaScript projects with multiple packages, built on Yarn
+
+### Build systems
+
+-   [Bazel](https://bazel.build/) - Bazel is Google's monorepo-oriented build system
+-   [buck2](https://github.com/facebook/buck2) - Buck2 is a fast, hermetic, multi-language build system designed by Meta
+-   [pants](https://github.com/pantsbuild/pants) - a monorepo-oriented build system, used by Twitter, Foursquare and multiple other companies
 
 ## Diagrams as code
 
@@ -364,14 +374,6 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 -   [pull](https://github.com/wei/pull) - Keep your forks up-to-date via automated PRs
 -   [git-of-theseus](https://github.com/erikbern/git-of-theseus) - Analyze how a Git repo grows over time
 -   [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt) - An informative and fancy bash prompt for Git users
-
-### Build systems & dependency management tools
-
--   [Bazel](https://bazel.build/) - Bazel is Google's monorepo-oriented build system
--   [buck2](https://github.com/facebook/buck2) - Buck2 is a fast, hermetic, multi-language build system designed by Meta
--   [pants](https://github.com/pantsbuild/pants) - a monorepo-oriented build system, used by Twitter, Foursquare and multiple other companies
--   [Lerna](https://lerna.js.org/) - Lerna is a tool for managing JavaScript projects with multiple packages, built on Yarn
--   [Devbox](https://github.com/jetpack-io/devbox) - command-line tool that lets you easily create isolated shells for development
 
 ### Hook management tools
 
