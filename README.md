@@ -79,12 +79,12 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
 
 -   [OWASP ZAP](https://www.zaproxy.org/) - dynamic security testing and web app scanner
 -   [Burpsuite](https://portswigger.net/burp) - The enterprise-enabled dynamic web vulnerability scanner
--   [Cherrybomb](https://github.com/blst-security/cherrybomb) (OSS) - CLI tool that helps you avoid undefined user behaviour by validating your API specifications
--   [Restler](https://github.com/microsoft/restler-fuzzer) (OSS) - stateful REST API fuzzing tool for automatically testing cloud services through their REST APIs and finding security and reliability bugs
--   [Dredd](https://github.com/apiaryio/dredd) (OSS) - Language-agnostic HTTP API Testing Tool
--   [Schemathesis](https://github.com/schemathesis/schemathesis) (OSS) - Specification-centric API testing tool for Open API and GraphQL-based applications
--   [Snapchange](https://github.com/awslabs/snapchange) (OSS) - Lightweight fuzzing of a memory snapshot using KVM
--   [Onefuzz](https://github.com/microsoft/onefuzz) (OSS) - A self-hosted Fuzzing-As-A-Service platform
+-   [Cherrybomb](https://github.com/blst-security/cherrybomb) - CLI tool that helps you avoid undefined user behaviour by validating your API specifications
+-   [Restler](https://github.com/microsoft/restler-fuzzer) - stateful REST API fuzzing tool for automatically testing cloud services through their REST APIs and finding security and reliability bugs
+-   [Dredd](https://github.com/apiaryio/dredd) - Language-agnostic HTTP API Testing Tool
+-   [Schemathesis](https://github.com/schemathesis/schemathesis) - Specification-centric API testing tool for Open API and GraphQL-based applications
+-   [Snapchange](https://github.com/awslabs/snapchange) - Lightweight fuzzing of a memory snapshot using KVM
+-   [Onefuzz](https://github.com/microsoft/onefuzz) - A self-hosted Fuzzing-As-A-Service platform
 -   [OSS-Fuzz](https://github.com/google/oss-fuzz) - continuous fuzzing for open source software
 
 ### DAST
@@ -151,10 +151,10 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
 *Supply chain security tools.*
 
 -   [awesome supply chain security](https://github.com/bureado/awesome-software-supply-chain-security)
--   [chain-bench](https://github.com/aquasecurity/chain-bench) (OSS) - open-source tool for auditing your software supply chain stack for security compliance based on a new CIS Software Supply Chain benchmark
--   [legitify](https://github.com/Legit-Labs/legitify) (OSS) - Detect and remediate misconfigurations and security risks across all your GitHub assets
--   [steampipe (GitHub compliance mod)](https://github.com/turbot/steampipe-mod-github-compliance) (OSS)
--   [OWASP dependency-check](https://github.com/jeremylong/DependencyCheck)(OSS) - software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies
+-   [chain-bench](https://github.com/aquasecurity/chain-bench) - open-source tool for auditing your software supply chain stack for security compliance based on a new CISs Software Supply Chain benchmark
+-   [legitify](https://github.com/Legit-Labs/legitify) - Detect and remediate misconfigurations and security risks across all your GitHub assets
+-   [steampipe (GitHub compliance mod)](https://github.com/turbot/steampipe-mod-github-compliance)
+-   [OWASP dependency-check](https://github.com/jeremylong/DependencyCheck) - software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies
 -   [harden-runner](https://github.com/step-security/harden-runner)- Security agent for GitHub-hosted runner: block egress traffic & detect code overwrite to prevent breaches
 -   [scorecard](https://github.com/ossf/scorecard) - OpenSSF Scorecard - Security health metrics for Open Source
 -   [CVE Prioritizer](https://github.com/TURROKS/CVE_Prioritizer)- Streamline vulnerability patching with CVSS, EPSS, and CISA's Known Exploited Vulnerabilities
@@ -235,24 +235,24 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 
 *Cloud asset inventory and Cloud Security Posture Management tools.*
 
--   [Steampipe](https://steampipe.io/) (OSS) - `# select * from cloud;`
--   [Resoto](https://github.com/someengineering/resoto) (OSS) -  Resoto creates an inventory of your cloud, provides deep visibility, and reacts to changes in your infrastructure
--   [Cloudquery](https://www.cloudquery.io/) (OSS) - Sync cloud assets to any database, transform and visualize
--   [Cloudgraph](https://github.com/cloudgraphdev/cli) (OSS) - The universal GraphQL API and CSPM tool for AWS, Azure, GCP, K8s, and tencent
--   [Cloudmapper](https://github.com/duo-labs/cloudmapper) (OSS) - CloudMapper helps you analyze your AWS environments
--   [AWS ClickOps notifier](https://github.com/cloudandthings/terraform-aws-clickops-notifier) (OSS) - Get notified when users are taking actions in the AWS Console
--  [driftctl](https://github.com/snyk/driftctl) (OSS) - Detect, track and alert on infrastructure drift
--  [Scoutsuite](https://github.com/nccgroup/ScoutSuite) (OSS) - Multi-Cloud Security Auditing Tools
--  [prowler](https://github.com/prowler-cloud/prowler) (OSS) - perform AWS security best practices assessments, audits, incident response, continuous monitoring
--   [saw](https://github.com/TylerBrock/saw) (OSS) - Fast, multi-purpose tool for searching AWS CloudWatch Logs
--   [magpie](https://github.com/openraven/magpie) (OSS) - Magpie is a free, open-source framework and a collection of community developed plugins that can be used to build complete end-to-end security tools such as a CSPM
+-   [Steampipe](https://steampipe.io/) - `# select * from cloud;`
+-   [Resoto](https://github.com/someengineering/resoto) -  Resoto creates an inventory of your cloud, provides deep visibility, and reacts to changes in your infrastructure
+-   [Cloudquery](https://www.cloudquery.io/) - Sync cloud assets to any database, transform and visualize
+-   [Cloudgraph](https://github.com/cloudgraphdev/cli) - The universal GraphQL API and CSPM tool for AWS, Azure, GCP, K8s, and tencent
+-   [Cloudmapper](https://github.com/duo-labs/cloudmapper) - CloudMapper helps you analyze your AWS environments
+-   [AWS ClickOps notifier](https://github.com/cloudandthings/terraform-aws-clickops-notifier) - Get notified when users are taking actions in the AWS Console
+-  [driftctl](https://github.com/snyk/driftctl) - Detect, track and alert on infrastructure drift
+-  [Scoutsuite](https://github.com/nccgroup/ScoutSuite) - Multi-Cloud Security Auditing Tools
+-  [prowler](https://github.com/prowler-cloud/prowler) - perform AWS security best practices assessments, audits, incident response, continuous monitoring
+-   [saw](https://github.com/TylerBrock/saw) - Fast, multi-purpose tool for searching AWS CloudWatch Logs
+-   [magpie](https://github.com/openraven/magpie) - Magpie is a free, open-source framework and a collection of community developed plugins that can be used to build complete end-to-end security tools such as a CSPM
 
 ## Continuous deployment
 
 *Tools that enable declarative continuous deployment aka GitOps.*
 
--   [ArgoCD](https://github.com/argoproj/argo-cd) (OSS) - Declarative continuous deployment for Kubernetes
--   [Flux](https://github.com/fluxcd/flux2) (OSS) - Open and extensible continuous delivery solution for Kubernetes
+-   [ArgoCD](https://github.com/argoproj/argo-cd) - Declarative continuous deployment for Kubernetes
+-   [Flux](https://github.com/fluxcd/flux2) - Open and extensible continuous delivery solution for Kubernetes
 -   [dagger](https://dagger.io/) - programmable CI/CD engine that runs your pipelines in containers
 
 ## Continuous integration
@@ -270,8 +270,8 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 
 *Tools that allow you to define and manage your observability dashboards in code.*
 
--   [Grafanalib](https://github.com/weaveworks/grafanalib) (OSS) - Write Grafana dashboards in Python
--   [Grafonnet](https://github.com/grafana/grafonnet-lib) (OSS) - Jsonnet library for generating Grafana dashboard files
+-   [Grafanalib](https://github.com/weaveworks/grafanalib) - Write Grafana dashboards in Python
+-   [Grafonnet](https://github.com/grafana/grafonnet-lib) - Jsonnet library for generating Grafana dashboard files
 -   [Steampipe - AWS Insights Mod](https://hub.steampipe.io/mods/turbot/aws_insights) - Create dashboards and reports for your AWS resources using Steampipe
 -   [kennel](https://github.com/grosser/kennel) - Datadog monitors/dashboards/slos as code, avoid chaotic management via UI
 
@@ -279,13 +279,13 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 
 *Manage development environments, software dependencies and package versions.*
 
--   [Poetry](https://python-poetry.org/) (OSS) - Python packaging and dependency management
--   [Renovate](https://github.com/renovatebot/renovate) (OSS) - Universal dependency update tool that fits into your workflows
--   [Dependabot](https://github.com/dependabot/dependabot-core) (OSS) - Automating dependency updates in multiple languages
+-   [Poetry](https://python-poetry.org/) - Python packaging and dependency management
+-   [Renovate](https://github.com/renovatebot/renovate) - Universal dependency update tool that fits into your workflows
+-   [Dependabot](https://github.com/dependabot/dependabot-core) - Automating dependency updates in multiple languages
 -   [configrd](https://configrd.io/) - Sync configurations such as environment variables, application properties and secrets across build pipelines, services and environments
--   [tfenv](https://github.com/tfutils/tfenv) (OSS) - Terraform version manager based on rbenv
--   [asdf](https://github.com/asdf-vm/asdf) (OSS) - Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more
--   [mise](https://github.com/jdx/mise) (OSS) - development environment setup tool that manages dev tools, runtimes, envvars and task runners
+-   [tfenv](https://github.com/tfutils/tfenv) - Terraform version manager based on rbenv
+-   [asdf](https://github.com/asdf-vm/asdf) - Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more
+-   [mise](https://github.com/jdx/mise) - development environment setup tool that manages dev tools, runtimes, envvars and task runners
 -   [Devbox](https://github.com/jetpack-io/devbox) - command-line tool that lets you easily create isolated shells for development
 -   [spack](https://github.com/spack/spack) - A flexible package manager that supports multiple versions, configurations, platforms, and compilers
 -   [Lerna](https://lerna.js.org/) - Lerna is a tool for managing JavaScript projects with multiple packages, built on Yarn
@@ -319,8 +319,8 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 
 *Docker and general container tools*
 
--   [Dockle](https://github.com/goodwithtech/dockle) - Docker image linting (OSS)
--   [Container-scan](https://github.com/Azure/container-scan) - Dockle + Trivy (OSS) [Deprecated]
+-   [Dockle](https://github.com/goodwithtech/dockle) - Docker image linting
+-   [Container-scan](https://github.com/Azure/container-scan) - Dockle + Trivy [Deprecated]
 -   [HadoLint](https://github.com/hadolint/hadolint) - Dockerfile linter, validate inline bash, written in Haskell
 -   [docker-bench](https://github.com/docker/docker-bench-security) - checks for dozens of common best-practices
 -   [aquasecurity/docker-bench](https://github.com/aquasecurity/docker-bench)
@@ -354,7 +354,7 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 
 *Is it up or not?*
 
--   [Goss](https://github.com/aelsabbahy/goss) (OSS) - quick and easy server validation
+-   [Goss](https://github.com/aelsabbahy/goss) - quick and easy server validation
 -   [Prometheus Blackbox exporter](https://github.com/prometheus/blackbox_exporter) - Blackbox prober exporter
 
 ## Git Tools
@@ -389,7 +389,7 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 *IAM platforms, tools and systems.*
 
 -   [Teleport](https://goteleport.com/)
--   [IAMAlive](https://github.com/iann0036/iamlive) (OSS) - Generate an IAM policy from AWS calls using client-side monitoring (CSM) or embedded proxy
+-   [IAMAlive](https://github.com/iann0036/iamlive) - Generate an IAM policy from AWS calls using client-side monitoring (CSM) or embedded proxy
 -   [Ermetic](https://ermetic.com/) - Holistic IAM protection for AWS, Azure and Google Cloud
 -   [Pike](https://github.com/jamesWoolfenden/pike) - Pike is a tool for determining the permissions or policy required for IAC code
 -   [AirAM](https://github.com/bridgecrewio/AirIAM) - Least privilege AWS IAM Terraformer
@@ -435,11 +435,11 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 
 -   [Drone](https://www.drone.io/) - self-service Continuous Integration platform
 -   [Shipa](https://shipa.io/) - modern application delivery platform
--   [KubeVela](https://github.com/kubevela/kubevela) (OSS) - modern application delivery platform
--   [Ketch](https://www.theketch.io/) (OSS) - Kubernetes application delivery platform
+-   [KubeVela](https://github.com/kubevela/kubevela) - modern application delivery platform
+-   [Ketch](https://www.theketch.io/) - Kubernetes application delivery platform
 -   [Humanitec](https://humanitec.com/) - Internal developer platform orchestrator
--   [Nais](https://nais.io/) (OSS) - application delivery platform
--   [Garden](https://github.com/garden-io/garden) (OSS) - simplify Kubernetes delivery
+-   [Nais](https://nais.io/) - application delivery platform
+-   [Garden](https://github.com/garden-io/garden) - simplify Kubernetes delivery
 -   [Massdriver](https://www.massdriver.cloud/) - visual IDP that enables engineers to deploy production-ready cloud infrastructure and applications in minutes
 
 ## Kafka
@@ -455,25 +455,25 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 
 *Kubernetes management tools.*
 
--   [lens](https://github.com/lensapp/lens) (OSS) - IDE for kubernetes
+-   [lens](https://github.com/lensapp/lens) - IDE for kubernetes
 -   [kubestack](https://www.kubestack.com/) - a collection of Terraform modules and a dedicated Terraform provider to maintain both infra and services together
--   [Keda](https://keda.sh/) (OSS) - Event Driven Autoscaler
+-   [Keda](https://keda.sh/) - Event Driven Autoscaler
 -   [ket](https://github.com/apprenda/kismatic) - Kismatic Enterprise Toolkit: a set of production-ready defaults and best practice tools for creating enterprise-tuned Kubernetes clusters
 -   [flagger](https://flagger.app/) - Progressive delivery Kubernetes operator (Canary, A/B Testing and Blue/Green deployments)
 
 ### Kubernetes IAM
 
--   [Kubiscan](https://github.com/cyberark/KubiScan) (OSS) - A tool to scan Kubernetes cluster for risky permissions
--   [rbac-police](https://github.com/PaloAltoNetworks/rbac-police) (OSS) - Evaluate the RBAC permissions of Kubernetes identities through policies written in Rego
+-   [Kubiscan](https://github.com/cyberark/KubiScan) - A tool to scan Kubernetes cluster for risky permissions
+-   [rbac-police](https://github.com/PaloAltoNetworks/rbac-police) - Evaluate the RBAC permissions of Kubernetes identities through policies written in Rego
 
 ### Kubernetes security posture management
 
--   [pluto](https://github.com/FairwindsOps/pluto) (OSS) - A cli tool to help discover deprecated apiVersions in Kubernetes
--   [kubent](https://github.com/doitintl/kube-no-trouble) (OSS) - Easily check your clusters for use of deprecated APIs
--   [Popeye](https://github.com/derailed/popeye) (OSS) - A Kubernetes cluster resource sanitizer
--   [kube-bench](https://github.com/aquasecurity/kube-bench) (OSS) - Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark
+-   [pluto](https://github.com/FairwindsOps/pluto) - A cli tool to help discover deprecated apiVersions in Kubernetes
+-   [kubent](https://github.com/doitintl/kube-no-trouble) - Easily check your clusters for use of deprecated APIs
+-   [Popeye](https://github.com/derailed/popeye) - A Kubernetes cluster resource sanitizer
+-   [kube-bench](https://github.com/aquasecurity/kube-bench) - Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark
 -   [kube-no-trouble](https://github.com/doitintl/kube-no-trouble) - Easily check your clusters for use of deprecated APIs
--   [nova](https://github.com/FairwindsOps/Nova) (OSS) - Find outdated or deprecated Helm charts running in your cluster
+-   [nova](https://github.com/FairwindsOps/Nova) - Find outdated or deprecated Helm charts running in your cluster
 -   [hardeneks](https://github.com/aws-samples/hardeneks) - Runs checks to see if an EKS cluster follows EKS Best Practices
 -   [kbom](https://github.com/ksoclabs/kbom) - SBOM for Kubernetes
 -   [sealed-secrets](https://github.com/bitnami-labs/sealed-secrets) - A Kubernetes controller and tool for one-way encrypted Secrets
@@ -481,19 +481,19 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 
 ### Kubernetes runtime security
 
--   [tracee](https://github.com/aquasecurity/tracee) (OSS) - Linux Runtime Security and Forensics using eBPF
--   [falco](https://github.com/falcosecurity/falco) (OSS) - Cloud Native Runtime Security
--   [kubespy](https://github.com/pulumi/kubespy) (OSS) - Tools for observing Kubernetes resources in real time, powered by Pulumi
+-   [tracee](https://github.com/aquasecurity/tracee) - Linux Runtime Security and Forensics using eBPF
+-   [falco](https://github.com/falcosecurity/falco) - Cloud Native Runtime Security
+-   [kubespy](https://github.com/pulumi/kubespy) - Tools for observing Kubernetes resources in real time, powered by Pulumi
 -   [inspektor-gadget](https://github.com/inspektor-gadget/inspektor-gadget) - eBPF security inspection tool
--   [Mizu](https://github.com/up9inc/mizu/tree/main) (OSS) - API traffic viewer for Kubernetes enabling you to view all API communication between microservices. Think TCPDump and Wireshark re-invented for Kubernetes
+-   [Mizu](https://github.com/up9inc/mizu/tree/main) - API traffic viewer for Kubernetes enabling you to view all API communication between microservices. Think TCPDump and Wireshark re-invented for Kubernetes
 
 ### Kubernetes static analysis
 
--   [KubeLinter](https://github.com/stackrox/kube-linter) (OSS) - static analysis tool that checks Kubernetes YAML files and Helm charts
--   [Trivy](https://github.com/aquasecurity/trivy) (OSS) - Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more
--   [Kubescape](https://github.com/kubescape/kubescape) (OSS) - K8s open-source tool providing a multi-cloud K8s single pane of glass, including risk analysis, security compliance, RBAC visualizer and image vulnerabilities scanning
--   [Kubeclarity](https://github.com/openclarity/kubeclarity) (OSS) - detection and management of Software Bill Of Materials (SBOM) and vulnerabilities of container images and filesystems
--   [grype](https://github.com/anchore/grype) (OSS) - scan container images for CVEs
+-   [KubeLinter](https://github.com/stackrox/kube-linter) - static analysis tool that checks Kubernetes YAML files and Helm charts
+-   [Trivy](https://github.com/aquasecurity/trivy) - Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more
+-   [Kubescape](https://github.com/kubescape/kubescape) - K8s open-source tool providing a multi-cloud K8s single pane of glass, including risk analysis, security compliance, RBAC visualizer and image vulnerabilities scanning
+-   [Kubeclarity](https://github.com/openclarity/kubeclarity) - detection and management of Software Bill Of Materials (SBOM) and vulnerabilities of container images and filesystems
+-   [grype](https://github.com/anchore/grype) - scan container images for CVEs
 
 ### Kubernetes local development
 
@@ -505,15 +505,15 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 
 ### Kubernetes testing
 
--   [Testkube](https://github.com/kubeshop/testkube) (OSS) - Kubernetes-native framework for test definition and execution
--   [Kuberhealthy](https://github.com/kuberhealthy/kuberhealthy) (OSS) - A Kubernetes operator for running synthetic checks as pods
+-   [Testkube](https://github.com/kubeshop/testkube) - Kubernetes-native framework for test definition and execution
+-   [Kuberhealthy](https://github.com/kuberhealthy/kuberhealthy) - A Kubernetes operator for running synthetic checks as pods
 
 ## Linting
 
 *Linting tools to ensure high code quality.*
 
--   [megalinter](https://megalinter.io/latest/supported-linters/) (OSS) - MegaLinter analyzes 50 languages, 22 formats, 21 tooling formats, excessive copy-pastes, spelling mistakes and security issues
--   [reviewdog](https://github.com/reviewdog/reviewdog) (OSS) - Automated code review tool integrated with any code analysis tools regardless of programming language
+-   [megalinter](https://megalinter.io/latest/supported-linters/) - MegaLinter analyzes 50 languages, 22 formats, 21 tooling formats, excessive copy-pastes, spelling mistakes and security issues
+-   [reviewdog](https://github.com/reviewdog/reviewdog) - Automated code review tool integrated with any code analysis tools regardless of programming language
 -   [error-prone](https://github.com/google/error-prone) - Catch common Java mistakes as compile-time errors
 -   [clang-tidy](https://clang.llvm.org/extra/clang-tidy/index.html)- C++ linter
 -   [metabob](https://metabob.com/) - AI coding assistant that uses a combination of graph-attention networks and generative AI to facilitate code review and quality
@@ -562,9 +562,9 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 *Declare policies in a high-level programming language so you can version, test and automatically deploy them.*
 
 -   [Cyral](https://cyral.com/blog/unlocking-security-as-code-by-using-github-for-managing-cyral-policies/)
--   Kyverno (OSS) - Policy as code engine for Kubernetes. Enterprise support available
--   [Datree](https://www.datree.io/) (OSS) - Policy as code engine for Kubernetes. Enterprise support available
--   [Magtape](https://github.com/tmobile/magtape) (OSS) - Policy as code engine for Kubernetes
+-   Kyverno - Policy as code engine for Kubernetes. Enterprise support available
+-   [Datree](https://www.datree.io/) - Policy as code engine for Kubernetes. Enterprise support available
+-   [Magtape](https://github.com/tmobile/magtape) - Policy as code engine for Kubernetes
 -   [OPA Gatekeeper](https://github.com/open-policy-agent/gatekeeper) - Gatekeeper is a Policy Controller for Kubernetes
 -   [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian) - Rules engine for cloud security, cost optimization, and governance, DSL in yaml for policies to query, filter, and take actions on resources
 -   [Hashicorp Sentinel](https://www.hashicorp.com/sentinel) - Policy as code framework for HashiCorp Enterprise Products
@@ -589,10 +589,10 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 
 *Allow developers to manage their software, infrastructure and documentation in one central place.*
 
--   [Backstage](https://backstage.io/) (OSS) - Backstage is an open platform for building developer portals
+-   [Backstage](https://backstage.io/) - Backstage is an open platform for building developer portals
 -   [Cortex](https://www.cortex.io/) - Cortex makes it easy for engineering organisations to gain visibility into their services
 -   [OpsLevel](https://www.opslevel.com/) - OpsLevel is the developer platform for teams to own, operate, and understand their production infrastructure
--   [Clutch](https://clutch.sh/) (OSS) - An extensible platform for infrastructure management
+-   [Clutch](https://clutch.sh/) - An extensible platform for infrastructure management
 
 ## Sharing
 
@@ -632,7 +632,7 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 -   [Jmeter](https://jmeter.apache.org/) - 20+ years of solid Java testing
 -   [Gatling](https://github.com/gatling/gatling) - Java based load testing as code. Note: slower than newer alternatives
 -   [Tsung](https://github.com/processone/tsung) - high-performance benchmark and stress testing tool
--   [Locust](https://locust.io/) - modern load testing in Python (OSS)
+-   [Locust](https://locust.io/) - modern load testing in Python
 -   [LoadRunner](https://software.microfocus.com/en-us/products/loadrunner-load-testing/overview) - Load testing tool from Micro Focus
 -   [TCPCopy](https://github.com/session-replay-tools/tcpcopy) - TCP stream replay tool to support real testing of Internet server applications
 -   [Siege](https://www.joedog.org/siege-home/) - HTTP load testing and benchmarking utility
