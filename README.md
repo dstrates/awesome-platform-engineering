@@ -383,6 +383,7 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 -   [husky](https://github.com/typicode/husky) - Git hooks for Node.js, manage your hooks from your package.json
 -   [Mookme](https://github.com/Escape-Technologies/mookme) - A simple and easy-to-use, yet powerful and language agnostic git hook for monorepos
 -   [lint-staged](https://github.com/lint-staged/lint-staged) - run linters on git staged files
+-   [lefthook](https://github.com/evilmartians/lefthook) - Fast and powerful Git hooks manager for any type of projects
 
 ## Identity and access management
 
