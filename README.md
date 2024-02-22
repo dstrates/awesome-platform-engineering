@@ -610,6 +610,7 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 -   [Antora](https://antora.org/) - The multi-repository documentation site generator for tech writers who write in AsciiDoc
 -   [tldraw](https://www.tldraw.com/) - draw things quick
 -   [excalidraw](https://excalidraw.com/) - hand-drawn look and feel diagrams
+-   [vale](https://github.com/errata-ai/vale) - A markup-aware linter for prose built with speed and extensibility in mind
 
 ## Testing
 
