@@ -462,6 +462,16 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 -   [Keda](https://keda.sh/) - Event Driven Autoscaler
 -   [ket](https://github.com/apprenda/kismatic) - Kismatic Enterprise Toolkit: a set of production-ready defaults and best practice tools for creating enterprise-tuned Kubernetes clusters
 -   [flagger](https://flagger.app/) - Progressive delivery Kubernetes operator (Canary, A/B Testing and Blue/Green deployments)
+-   [cdk8s](https://github.com/cdk8s-team/cdk8s) - Define Kubernetes native apps and abstractions using object-oriented programming
+
+### Kubernetes templating
+
+-   [helm](https://github.com/helm/helm) - The Kubernetes Package Manager
+-   [kustomize](https://github.com/kubernetes-sigs/kustomize) - Customization of kubernetes YAML configurations
+-   [ytt](https://github.com/carvel-dev/ytt) - YAML templating tool that works on YAML structure instead of text
+-   [timoni](https://github.com/stefanprodan/timoni) - Timoni is a package manager for Kubernetes, powered by CUE and inspired by Helm
+-   [tanka](https://github.com/grafana/tanka) - Flexible, reusable and concise configuration for Kubernetes using Jsonnet
+-   [kluctl](https://github.com/kluctl/kluctl/) - The missing glue to put together large Kubernetes deployments, composed of multiple smaller parts (Helm/Kustomize/...) in a manageable and unified way
 
 ### Kubernetes IAM
 
