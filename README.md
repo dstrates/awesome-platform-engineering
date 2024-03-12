@@ -45,10 +45,11 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
   - [Kafka](#kafka)
   - [Kubernetes](#kubernetes)
     - [Kubernetes IAM](#kubernetes-iam)
-    - [Kubernetes security posture management](#kubernetes-security-posture-management)
-    - [Kubernetes runtime security](#kubernetes-runtime-security)
-    - [Kubernetes static analysis](#kubernetes-static-analysis)
     - [Kubernetes local development](#kubernetes-local-development)
+    - [Kubernetes runtime security](#kubernetes-runtime-security)
+    - [Kubernetes security posture management](#kubernetes-security-posture-management)
+    - [Kubernetes static analysis](#kubernetes-static-analysis)
+    - [Kubernetes templating](#kubernetes-templating)
     - [Kubernetes testing](#kubernetes-testing)
   - [Linting](#linting)
     - [Terraform](#terraform)
@@ -464,19 +465,26 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [flagger](https://flagger.app/) - Progressive delivery Kubernetes operator (Canary, A/B Testing and Blue/Green deployments)
 - [cdk8s](https://github.com/cdk8s-team/cdk8s) - Define Kubernetes native apps and abstractions using object-oriented programming
 
-### Kubernetes templating
-
-- [helm](https://github.com/helm/helm) - The Kubernetes Package Manager
-- [kustomize](https://github.com/kubernetes-sigs/kustomize) - Customization of kubernetes YAML configurations
-- [ytt](https://github.com/carvel-dev/ytt) - YAML templating tool that works on YAML structure instead of text
-- [timoni](https://github.com/stefanprodan/timoni) - Timoni is a package manager for Kubernetes, powered by CUE and inspired by Helm
-- [tanka](https://github.com/grafana/tanka) - Flexible, reusable and concise configuration for Kubernetes using Jsonnet
-- [kluctl](https://github.com/kluctl/kluctl/) - The missing glue to put together large Kubernetes deployments, composed of multiple smaller parts (Helm/Kustomize/...) in a manageable and unified way
-
 ### Kubernetes IAM
 
 - [Kubiscan](https://github.com/cyberark/KubiScan) - A tool to scan Kubernetes cluster for risky permissions
 - [rbac-police](https://github.com/PaloAltoNetworks/rbac-police) - Evaluate the RBAC permissions of Kubernetes identities through policies written in Rego
+
+### Kubernetes local development
+
+- [Oktekto](https://github.com/okteto/okteto) - Develop your applications directly in your Kubernetes Cluster
+- [Tilt](https://github.com/tilt-dev/tilt) - Define your dev environment as code. For microservice apps on Kubernetes
+- [Garden](https://github.com/garden-io/garden) - Spin up production-like environments for development, testing, and CI on demand
+- [Telepresence](https://github.com/telepresenceio/telepresence) - Local development against a remote Kubernetes or OpenShift cluster
+- [Skaffold](https://github.com/GoogleContainerTools/skaffold) - Easy and Repeatable Kubernetes Development
+
+### Kubernetes runtime security
+
+- [tracee](https://github.com/aquasecurity/tracee) - Linux Runtime Security and Forensics using eBPF
+- [falco](https://github.com/falcosecurity/falco) - Cloud Native Runtime Security
+- [kubespy](https://github.com/pulumi/kubespy) - Tools for observing Kubernetes resources in real time, powered by Pulumi
+- [inspektor-gadget](https://github.com/inspektor-gadget/inspektor-gadget) - eBPF security inspection tool
+- [Mizu](https://github.com/up9inc/mizu/tree/main) - API traffic viewer for Kubernetes enabling you to view all API communication between microservices. Think TCPDump and Wireshark re-invented for Kubernetes
 
 ### Kubernetes security posture management
 
@@ -491,14 +499,6 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [sealed-secrets](https://github.com/bitnami-labs/sealed-secrets) - A Kubernetes controller and tool for one-way encrypted Secrets
 - [external-secrets](https://github.com/external-secrets/external-secrets) - External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets
 
-### Kubernetes runtime security
-
-- [tracee](https://github.com/aquasecurity/tracee) - Linux Runtime Security and Forensics using eBPF
-- [falco](https://github.com/falcosecurity/falco) - Cloud Native Runtime Security
-- [kubespy](https://github.com/pulumi/kubespy) - Tools for observing Kubernetes resources in real time, powered by Pulumi
-- [inspektor-gadget](https://github.com/inspektor-gadget/inspektor-gadget) - eBPF security inspection tool
-- [Mizu](https://github.com/up9inc/mizu/tree/main) - API traffic viewer for Kubernetes enabling you to view all API communication between microservices. Think TCPDump and Wireshark re-invented for Kubernetes
-
 ### Kubernetes static analysis
 
 - [KubeLinter](https://github.com/stackrox/kube-linter) - static analysis tool that checks Kubernetes YAML files and Helm charts
@@ -507,13 +507,14 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [Kubeclarity](https://github.com/openclarity/kubeclarity) - detection and management of Software Bill Of Materials (SBOM) and vulnerabilities of container images and filesystems
 - [grype](https://github.com/anchore/grype) - scan container images for CVEs
 
-### Kubernetes local development
+### Kubernetes templating
 
-- [Oktekto](https://github.com/okteto/okteto) - Develop your applications directly in your Kubernetes Cluster
-- [Tilt](https://github.com/tilt-dev/tilt) - Define your dev environment as code. For microservice apps on Kubernetes
-- [Garden](https://github.com/garden-io/garden) - Spin up production-like environments for development, testing, and CI on demand
-- [Telepresence](https://github.com/telepresenceio/telepresence) - Local development against a remote Kubernetes or OpenShift cluster
-- [Skaffold](https://github.com/GoogleContainerTools/skaffold) - Easy and Repeatable Kubernetes Development
+- [helm](https://github.com/helm/helm) - The Kubernetes Package Manager
+- [kustomize](https://github.com/kubernetes-sigs/kustomize) - Customization of kubernetes YAML configurations
+- [ytt](https://github.com/carvel-dev/ytt) - YAML templating tool that works on YAML structure instead of text
+- [timoni](https://github.com/stefanprodan/timoni) - Timoni is a package manager for Kubernetes, powered by CUE and inspired by Helm
+- [tanka](https://github.com/grafana/tanka) - Flexible, reusable and concise configuration for Kubernetes using Jsonnet
+- [kluctl](https://github.com/kluctl/kluctl/) - The missing glue to put together large Kubernetes deployments, composed of multiple smaller parts (Helm/Kustomize/...) in a manageable and unified way
 
 ### Kubernetes testing
 
