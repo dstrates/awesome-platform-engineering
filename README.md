@@ -291,6 +291,7 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [spack](https://github.com/spack/spack) - A flexible package manager that supports multiple versions, configurations, platforms, and compilers
 - [Lerna](https://lerna.js.org/) - Lerna is a tool for managing JavaScript projects with multiple packages, built on Yarn
 - [chezmoi](https://github.com/twpayne/chezmoi) - Manage your dotfiles across multiple diverse machines, securely
+- [knip](https://github.com/webpro/knip) - Find unused files, dependencies and exports in your JavaScript and TypeScript projects
 
 ### Build systems
 
