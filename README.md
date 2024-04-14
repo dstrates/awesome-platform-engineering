@@ -60,6 +60,7 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
   - [Secrets management](#secrets-management)
   - [Service catalogue](#service-catalogue)
   - [Sharing](#sharing)
+  - [Status pages](#status-pages)
   - [Testing](#testing)
     - [A/B testing](#ab-testing)
     - [Load, stress \& soak testing](#load-stress--soak-testing)
@@ -625,6 +626,15 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [tldraw](https://www.tldraw.com/) - draw things quick
 - [excalidraw](https://excalidraw.com/) - hand-drawn look and feel diagrams
 - [vale](https://github.com/errata-ai/vale) - A markup-aware linter for prose built with speed and extensibility in mind
+
+## Status pages
+
+*Communication tool that helps you inform your customers or users about outages and scheduled maintenance.*
+
+- [cachet](https://github.com/cachethq/cachet) - The open-source status page system
+- [instatus](https://instatus.com/) - Get a beautiful status page in 10 seconds, without paying thousands of dollars!
+- [Atlassian Statuspage](https://www.atlassian.com/software/statuspage) - the #1 status and incident communication tool
+- [PagerDuty status page](https://status.pagerduty.com/)
 
 ## Testing
 
