@@ -259,6 +259,8 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 
 ## Continuous integration
 
+*CI platforms and release management tools.*
+
 - [Spacelift](https://spacelift.io/) - Spacelift is a sophisticated CI/CD platform for Terraform, CloudFormation, Pulumi, and Kubernetes
 - [atlantis](https://www.runatlantis.io/) - Terraform Pull Request Automation
 - [scalr](https://www.scalr.com/) - Terraform Cloud alternative
@@ -267,6 +269,8 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [autorelease](https://github.com/intuit/auto) - Release automation for GitHub
 - [cashapp/hermit](https://github.com/cashapp/hermit) - consistent tooling across environments
 - [meta/hermit](https://github.com/facebookexperimental/hermit) - hermetically isolated sandboxes to control program execution
+- [semantic-release](https://github.com/semantic-release/semantic-release) - Fully automated version management and package publishing
+- [release-please](https://github.com/googleapis/release-please) - generate release PRs based on the conventionalcommits.org spec
 
 ## Dashboards as code
 
@@ -534,6 +538,7 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [error-prone](https://github.com/google/error-prone) - Catch common Java mistakes as compile-time errors
 - [clang-tidy](https://clang.llvm.org/extra/clang-tidy/index.html)- C++ linter
 - [metabob](https://metabob.com/) - AI coding assistant that uses a combination of graph-attention networks and generative AI to facilitate code review and quality
+- [Danger JS](https://github.com/danger/danger-js) - Danger runs after your CI, automating your team's conventions surrounding code review
 
 ### Terraform
 
