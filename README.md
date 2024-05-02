@@ -564,6 +564,7 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [kiali](https://github.com/kiali/kiali) - observability for the Istio service mesh
 - [cilium](https://github.com/cilium/cilium) - eBPF-based Networking, Security, and Observability
 - [thanos](https://github.com/thanos-io/thanos) - Highly available Prometheus setup with long term storage capabilities
+- [otelbin](https://github.com/dash0hq/otelbin) - Web-based tool to facilitate OpenTelemetry collector configuration editing and verification
 
 ## Platform as a Service
 
