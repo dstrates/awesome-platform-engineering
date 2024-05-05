@@ -550,6 +550,7 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [hatchet](https://hatchet.run/) - OSS alternative to Terraform Cloud
 - [OTF](https://github.com/leg100/otf) - OSS alternative to Terraform Cloud
 - [digger](https://github.com/diggerhq/digger) - state aware Terraform orchestrator
+- [terralist](https://github.com/terralist/terralist) -  Terraform Private Registry for modules and providers manageable from a REST API
 
 ### Regex
 
