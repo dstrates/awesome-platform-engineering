@@ -271,6 +271,7 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [meta/hermit](https://github.com/facebookexperimental/hermit) - hermetically isolated sandboxes to control program execution
 - [semantic-release](https://github.com/semantic-release/semantic-release) - Fully automated version management and package publishing
 - [release-please](https://github.com/googleapis/release-please) - generate release PRs based on the conventionalcommits.org spec
+- [git-cliff](https://github.com/orhun/git-cliff) - A highly customizable Changelog Generator that follows Conventional Commit specifications ⛰️
 
 ## Dashboards as code
 
