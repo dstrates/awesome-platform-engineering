@@ -304,6 +304,7 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [Bazel](https://bazel.build/) - Bazel is Google's monorepo-oriented build system
 - [buck2](https://github.com/facebook/buck2) - Buck2 is a fast, hermetic, multi-language build system designed by Meta
 - [pants](https://github.com/pantsbuild/pants) - a monorepo-oriented build system, used by Twitter, Foursquare and multiple other companies
+- [Nx](https://github.com/nrwl/nx) - Nx is a build system with built-in tooling and advanced CI capabilities. It helps you maintain and scale monorepos, both locally and on CI
 
 ## Diagrams as code
 
