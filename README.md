@@ -342,6 +342,7 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [anchore-engine](https://github.com/anchore/anchore-engine) - A service that analyzes docker images and scans for vulnerabilities
 - [grype](https://github.com/anchore/grype) - image vulnerability scanner
 - [docker-trim](https://github.com/tzickel/docker-trim) - create a trimmed docker image that contains only parts of the original file system of an existing docker image
+- [diffoci](https://github.com/reproducible-containers/diffoci) - diffoci compares Docker and OCI container images for helping reproducible builds
 
 ### Shell into containers
 
