@@ -109,7 +109,7 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
 
 *Static application security testing tools.*
 
-- [Shisho](https://github.com/flatt-security/shisho) - Lightweight static analyser
+- [Shisho](https://github.com/flatt-security/shisho) - Lightweight static analyzer
 - [Purple panda](https://github.com/carlospolop/PurplePanda) - identify privilege escalation paths within and across different clouds
 - [opensourcesecurityindex.io](https://opensourcesecurityindex.io/)
 - [Privado](https://github.com/Privado-Inc/privado) - Open Source Static Scanning tool to detect data flows in your code, find data security vulnerabilities & generate accurate Play Store Data Safety Report
@@ -225,13 +225,15 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 
 - [Infracost](https://www.infracost.io/) - Predict cost of infrastructure from Terraform code
 - [Terracost](https://github.com/cycloidio/terracost) - Cloud cost estimation for Terraform in your CLI
-- [Zesty](https://zesty.co/) - Automated cloud cost optimisation
-- [Vantage](https://vantage.sh/) - Automated cloud cost optimisation
-- [Scalr](https://www.scalr.com/blog/terraform-cost-estimation) - Terraform platform that has cost-optimisation features
+- [Zesty](https://zesty.co/) - Automated cloud cost optimization for EC2 & RDS
+- [Vantage](https://vantage.sh/) - Automated cloud cost optimization
+- [Scalr](https://www.scalr.com/blog/terraform-cost-estimation) - Terraform platform that has cost-optimization features
 - [Finout](https://www.finout.io/) - Cloud cost monitoring platform
 - [Opencost](https://github.com/opencost/opencost) - Cross-cloud cost allocation models for Kubernetes workloads
 - [Harness Cloud Cost Management](https://harness.io/products/cloud-cost) - Detect and stop cloud cost anomalies as they occur
 - [Loft](https://loft.sh/features/sleep-mode-for-namespaces/) - Kubernetes automated cost savings
+- [usage.ai](https://usage.ai/) - Automated cloud cost optimization for EC2, RDS, ElasticSearch, RedShift
+- [cast.ai](https://cast.ai/) - Kubernetes automated cost savings
 
 ## Cloud asset inventory
 
@@ -319,7 +321,7 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [Mermaid](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/) - simple diagrams and flowcharts in Markdown
 - [ascii flow](https://asciiflow.com/#/) - ASCII editor
 - [PlantUML](https://github.com/plantuml/plantuml) - Create diagrams from plaintext language
-- [Markmap](https://markmap.js.org/rep) - visualise your Markdown as minimaps
+- [Markmap](https://markmap.js.org/rep) - visualize your Markdown as minimaps
 - [Go diagrams](https://github.com/blushft/go-diagrams) - create system diagrams with Go
 - [GraphViz](https://dreampuf.github.io/GraphvizOnline) - create system diagrams in DOT language
 - [Cloudcraft](https://www.cloudcraft.co/) - Create AWS diagrams from deployed infrastructure
@@ -659,7 +661,7 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [Optimizely](https://www.optimizely.com/) - A/B testing at scale
 - [VWO Testing](https://vwo.com/testing/) - A/B testing
 - [Split](https://www.split.io/product/feature-flags/) - managed feature flags and rollouts
-- [Sitespect](https://www.sitespect.com/testing-and-experimentation/) - A/B testing and site optimisation
+- [Sitespect](https://www.sitespect.com/testing-and-experimentation/) - A/B testing and site optimization
 
 ### Load, stress & soak testing
 
