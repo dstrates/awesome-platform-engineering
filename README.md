@@ -346,6 +346,8 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [docker-trim](https://github.com/tzickel/docker-trim) - create a trimmed docker image that contains only parts of the original file system of an existing docker image
 - [diffoci](https://github.com/reproducible-containers/diffoci) - diffoci compares Docker and OCI container images for helping reproducible builds
 - [tini](https://github.com/krallin/tini) - A tiny but valid `init` for containers
+- [ko](https://github.com/ko-build/ko) - ko is a simple, fast container image builder for Go applications
+- [go-containerregistry](https://github.com/google/go-containerregistry) - Google Go library for working with container images. Includes tools like `crane`, `gcrane`, `krane` & `k8schain`
 
 ### Shell into containers
 
