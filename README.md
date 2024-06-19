@@ -468,6 +468,7 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [topicctl](https://github.com/segmentio/topicctl) - Tool for declarative management of Kafka topics
 - [kaf](https://github.com/birdayz/kaf) - Modern CLI for Apache Kafka, written in Go
 - [franz-go](https://github.com/twmb/franz-go) - franz-go contains a feature complete, pure Go library for interacting with Kafka from 0.8.0 through 3.6+. Producing, consuming, transacting, administrating, etc.
+- [bento](https://github.com/warpstreamlabs/bento) - Fancy stream processing made operationally mundane
 
 ## Kubernetes
 
