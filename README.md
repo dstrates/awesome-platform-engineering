@@ -16,7 +16,7 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
     - [Secrets detection](#secrets-detection)
     - [Supply chain security](#supply-chain-security)
     - [Threat modelling](#threat-modelling)
-  - [API Linting](#api-linting)
+  - [API tools](#api-tools)
   - [Artifact signing and attestation](#artifact-signing-and-attestation)
   - [Bug tracking](#bug-tracking)
   - [Chaos engineering](#chaos-engineering)
@@ -167,7 +167,7 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
 
 - [Deciduous](https://www.deciduous.app/) - security decision tree generator that serves as a threat modelling tool
 
-## API Linting
+## API tools
 
 - [Vacuum](https://github.com/daveshanley/vacuum) - vacuum is the worlds fastest OpenAPI 3, OpenAPI 2 / Swagger linter and quality analysis tool. Built in go, it tears through API specs faster than you can think. vacuum is compatible with Spectral rulesets and generates compatible reports
 - [Spectral](https://github.com/stoplightio/spectral) - A flexible JSON/YAML linter for creating automated style guides, with baked in support for OpenAPI v3.1, v3.0, and v2.0 as well as AsyncAPI v2.x.
@@ -175,6 +175,10 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
 - [oasdiff](https://github.com/Tufin/oasdiff) - OpenAPI Diff and Breaking Changes
 - [openapi-diff](https://github.com/OpenAPITools/openapi-diff) - Utility for comparing two OpenAPI specifications.
 - [openapi-generator](https://github.com/openapitools/openapi-generator)- OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)
+- [ogen](https://github.com/ogen-go/ogen) - OpenAPI v3 code generator for go
+- [swagger-codegen](https://github.com/swagger-api/swagger-codegen) - swagger-codegen contains a template-driven engine to generate documentation, API clients and server stubs in different languages by parsing your OpenAPI / Swagger definition.
+- [oapi-codegen](https://github.com/oapi-codegen/oapi-codegen) - Generate Go client and server boilerplate from OpenAPI 3 specifications
+- [speakeasy](speakeasyapi.dev) - Auto-generated SDKs, Terraform Providers, Docs & more
 
 ## Artifact signing and attestation
 
