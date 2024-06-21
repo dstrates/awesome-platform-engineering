@@ -178,7 +178,8 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
 - [ogen](https://github.com/ogen-go/ogen) - OpenAPI v3 code generator for go
 - [swagger-codegen](https://github.com/swagger-api/swagger-codegen) - swagger-codegen contains a template-driven engine to generate documentation, API clients and server stubs in different languages by parsing your OpenAPI / Swagger definition.
 - [oapi-codegen](https://github.com/oapi-codegen/oapi-codegen) - Generate Go client and server boilerplate from OpenAPI 3 specifications
-- [speakeasy](speakeasyapi.dev) - Auto-generated SDKs, Terraform Providers, Docs & more
+- [speakeasy](https://speakeasyapi.dev) - Auto-generated SDKs, Terraform Providers, Docs & more
+- [goa](https://github.com/goadesign/goa) - Goa: Elevate Go API development! Streamlined design, automatic code generation, and seamless HTTP/gRPC support
 
 ## Artifact signing and attestation
 
