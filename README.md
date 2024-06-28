@@ -395,6 +395,7 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [pull](https://github.com/wei/pull) - Keep your forks up-to-date via automated PRs
 - [git-of-theseus](https://github.com/erikbern/git-of-theseus) - Analyze how a Git repo grows over time
 - [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt) - An informative and fancy bash prompt for Git users
+- [comby](https://github.com/comby-tools/comby) - A code rewrite tool for structural search and replace that supports ~every language
 
 ### Hook management tools
 
