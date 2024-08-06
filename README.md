@@ -353,6 +353,7 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [tini](https://github.com/krallin/tini) - A tiny but valid `init` for containers
 - [ko](https://github.com/ko-build/ko) - ko is a simple, fast container image builder for Go applications
 - [go-containerregistry](https://github.com/google/go-containerregistry) - Google Go library for working with container images. Includes tools like `crane`, `gcrane`, `krane` & `k8schain`
+- [testcontainers](https://github.com/testcontainers) - open source framework for providing throwaway, lightweight instances of anything that can run in a Docker container
 
 ### Shell into containers
 
