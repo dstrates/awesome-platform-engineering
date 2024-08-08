@@ -653,6 +653,7 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [excalidraw](https://excalidraw.com/) - hand-drawn look and feel diagrams
 - [vale](https://github.com/errata-ai/vale) - A markup-aware linter for prose built with speed and extensibility in mind
 - [runme](https://github.com/stateful/runme) - Runme is a tool that makes runbooks actually runnable, making it easier to follow step-by-step instructions
+- [mdBook](https://github.com/rust-lang/mdBook) -  Create book from markdown files. Like Gitbook but implemented in Rust
 
 ## Status pages
 
