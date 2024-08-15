@@ -478,6 +478,7 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [franz-go](https://github.com/twmb/franz-go) - franz-go contains a feature complete, pure Go library for interacting with Kafka from 0.8.0 through 3.6+. Producing, consuming, transacting, administrating, etc.
 - [bento](https://github.com/warpstreamlabs/bento) - Fancy stream processing made operationally mundane
 - [heetch/avro](https://github.com/heetch/avro) - Avro codec and code generation for Go
+- [Karapace](https://github.com/Aiven-Open/karapace) - supports the storing of schemas in a central repository, which clients can access to serialize and deserialize messages
 
 ## Kubernetes
 
