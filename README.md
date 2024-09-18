@@ -592,6 +592,7 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [cilium](https://github.com/cilium/cilium) - eBPF-based Networking, Security, and Observability
 - [thanos](https://github.com/thanos-io/thanos) - Highly available Prometheus setup with long term storage capabilities
 - [otelbin](https://github.com/dash0hq/otelbin) - Web-based tool to facilitate OpenTelemetry collector configuration editing and verification
+- [openobserve](https://github.com/openobserve/openobserve) - cloud-native observability platform built specifically for logs, metrics, traces, analytics, RUM (Real User Monitoring - Performance, Errors, Session Replay) designed to work at petabyte scale
 
 ## Platform as a Service
 
