@@ -484,6 +484,8 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [bento](https://github.com/warpstreamlabs/bento) - Fancy stream processing made operationally mundane
 - [heetch/avro](https://github.com/heetch/avro) - Avro codec and code generation for Go
 - [Karapace](https://github.com/Aiven-Open/karapace) - supports the storing of schemas in a central repository, which clients can access to serialize and deserialize messages
+- [xk6-kafka](https://github.com/mostafa/xk6-kafka) - k6 extension to load test Apache Kafka with support for various serialization formats, SASL, TLS, compression, Schema Registry client and beyond
+- [kroxylicious](https://github.com/kroxylicious/kroxylicious) - An open-source network proxy framework for Apache Kafka
 
 ## Kubernetes
 
