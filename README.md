@@ -163,6 +163,7 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
 - [CVE Prioritizer](https://github.com/TURROKS/CVE_Prioritizer)- Streamline vulnerability patching with CVSS, EPSS, and CISA's Known Exploited Vulnerabilities
 - [ossf/allstar](https://github.com/ossf/allstar) - GitHub App to set and enforce security policies
 - [OSSGadget](https://github.com/microsoft/OSSGadget/tree/main) - Collection of tools for analyzing open source packages
+- [oak](https://github.com/project-oak/oak) - Oak is a software platform for building distributed systems providing externally verifiable (or falsifiable) claims about system behaviors in a transparent way
 
 ### Threat modelling
 
