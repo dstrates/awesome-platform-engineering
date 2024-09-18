@@ -510,6 +510,7 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [Garden](https://github.com/garden-io/garden) - Spin up production-like environments for development, testing, and CI on demand
 - [Telepresence](https://github.com/telepresenceio/telepresence) - Local development against a remote Kubernetes or OpenShift cluster
 - [Skaffold](https://github.com/GoogleContainerTools/skaffold) - Easy and Repeatable Kubernetes Development
+- [Kardinal](https://github.com/kurtosis-tech/kardinal) - Kardinal is an open-source framework for creating extremely lightweight ephemeral development environments within a shared Kubernetes cluste
 
 ### Kubernetes runtime security
 
@@ -536,10 +537,9 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 ### Kubernetes static analysis
 
 - [KubeLinter](https://github.com/stackrox/kube-linter) - static analysis tool that checks Kubernetes YAML files and Helm charts
-- [Trivy](https://github.com/aquasecurity/trivy) - Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more
+- [Kubeconform](https://github.com/yannh/kubeconform) - A FAST Kubernetes manifests validator, with support for Custom Resources!
 - [Kubescape](https://github.com/kubescape/kubescape) - K8s open-source tool providing a multi-cloud K8s single pane of glass, including risk analysis, security compliance, RBAC visualizer and image vulnerabilities scanning
 - [Kubeclarity](https://github.com/openclarity/kubeclarity) - detection and management of Software Bill Of Materials (SBOM) and vulnerabilities of container images and filesystems
-- [grype](https://github.com/anchore/grype) - scan container images for CVEs
 
 ### Kubernetes templating
 
