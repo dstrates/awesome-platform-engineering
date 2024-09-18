@@ -128,6 +128,7 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
 - [nancy](https://github.com/sonatype-nexus-community/nancy) - A tool to check for vulnerabilities in your Golang dependencies, powered by Sonatype OSS Index
 - [deps.dev](https://deps.dev/) - Google project for rating dependencies
 - [dep-scan](https://github.com/owasp-dep-scan/dep-scan) - OWASP dep-scan is a next-generation security and risk audit tool based on known vulnerabilities, advisories, and license limitations for project dependencies
+- [depguard](https://github.com/OpenPeeDeeP/depguard) - Go linter that checks if package imports are in a list of acceptable packages
 
 ### Secrets detection
 
