@@ -534,6 +534,7 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [sealed-secrets](https://github.com/bitnami-labs/sealed-secrets) - A Kubernetes controller and tool for one-way encrypted Secrets
 - [external-secrets](https://github.com/external-secrets/external-secrets) - External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets
 - [namespacehound](https://github.com/wiz-sec-public/namespacehound) - tool for detecting the risk of potential namespace crossing violations in multi-tenant clusters
+- [eraser](https://github.com/eraser-dev/eraser) - Eraser helps Kubernetes admins remove a list of non-running images from all Kubernetes nodes in a cluster
 
 ### Kubernetes static analysis
 
