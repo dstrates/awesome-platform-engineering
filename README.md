@@ -360,6 +360,7 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [testcontainers](https://github.com/testcontainers) - open source framework for providing throwaway, lightweight instances of anything that can run in a Docker container
 - [distroless](https://github.com/GoogleContainerTools/distroless) - Language focused docker images, minus the operating system
 - [confidential-containers](https://github.com/confidential-containers/confidential-containers) - leverage Trusted Execution Environments to protect containers and data and to deliver cloud native confidential computing
+- [copacetic](https://github.com/project-copacetic/copacetic) - CLI tool for directly patching container images!
 
 ### Shell into containers
 
