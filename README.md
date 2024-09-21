@@ -99,6 +99,7 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
 - [Skipfish](https://github.com/spinkham/skipfish) - Web application security scanner created by lcamtuf for google - Unofficial Mirror [Deprecated]
 - [Jazzer](https://github.com/CodeIntelligenceTesting/jazzer/) - Coverage-guided, in-process fuzzing for the JVM
 - [CI Fuzz](https://www.code-intelligence.com/cli-tool) - CI Fuzz CLI is an open-source solution that lets you run feedback-based fuzz tests from your command line
+- [nuclei](https://github.com/projectdiscovery/nuclei) - Fast and customizable vulnerability scanner based on simple YAML based DSL
 
 #### Language & Framework-specific DAST
 
