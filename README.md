@@ -344,6 +344,7 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [chezmoi](https://github.com/twpayne/chezmoi) - Manage your dotfiles across multiple diverse machines, securely
 - [knip](https://github.com/webpro/knip) - Find unused files, dependencies and exports in your JavaScript and TypeScript projects
 - [just](https://github.com/casey/just) - just is a handy way to save and run project-specific commands
+- [changesets](https://github.com/changesets/changesets) - A way to manage your versioning and changelogs with a focus on monorepos
 
 ### Build systems
 
