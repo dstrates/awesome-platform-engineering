@@ -23,14 +23,14 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
   - [Chat and ChatOps](#chat-and-chatops)
   - [Cloud cost management](#cloud-cost-management)
   - [Cloud asset inventory](#cloud-asset-inventory)
+  - [Containers](#containers)
+    - [Shell into containers](#shell-into-containers)
   - [Continuous deployment](#continuous-deployment)
   - [Continuous integration](#continuous-integration)
   - [Dashboards as code](#dashboards-as-code)
   - [Dependency management](#dependency-management)
     - [Build systems](#build-systems)
   - [Diagrams as code](#diagrams-as-code)
-  - [Docker](#docker)
-    - [Shell into containers](#shell-into-containers)
   - [Documentation as code](#documentation-as-code)
   - [Endpoint validation](#endpoint-validation)
   - [Git Tools](#git-tools)
@@ -259,6 +259,41 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [saw](https://github.com/TylerBrock/saw) - Fast, multi-purpose tool for searching AWS CloudWatch Logs
 - [magpie](https://github.com/openraven/magpie) - Magpie is a free, open-source framework and a collection of community developed plugins that can be used to build complete end-to-end security tools such as a CSPM
 
+## Containers
+
+*Docker and general container tools.*
+
+- [Dockle](https://github.com/goodwithtech/dockle) - Docker image linting
+- [Container-scan](https://github.com/Azure/container-scan) - Dockle + Trivy [Deprecated]
+- [HadoLint](https://github.com/hadolint/hadolint) - Dockerfile linter, validate inline bash, written in Haskell
+- [docker-bench](https://github.com/docker/docker-bench-security) - checks for dozens of common best-practices
+- [aquasecurity/docker-bench](https://github.com/aquasecurity/docker-bench)
+- [Dive](https://github.com/wagoodman/dive) - A tool for exploring a docker image, layer contents, and discovering ways to shrink the size of your Docker/OCI image
+- [cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers
+- [Docker-slim](https://github.com/docker-slim/docker-slim) - Don't change anything in your Docker container image and minify it by up to 30x
+- [dfimage](https://github.com/LanikSJ/dfimage) - Reverse-engineer a Dockerfile from a Docker image
+- [Whaler](https://github.com/P3GLEG/Whaler) - Go program to reverse Docker images into Dockerfiles
+- [anchore-engine](https://github.com/anchore/anchore-engine) - A service that analyzes docker images and scans for vulnerabilities
+- [grype](https://github.com/anchore/grype) - A vulnerability scanner for container images and filesystems
+- [Trivy](https://github.com/aquasecurity/trivy) - Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more
+- [docker-trim](https://github.com/tzickel/docker-trim) - create a trimmed docker image that contains only parts of the original file system of an existing docker image
+- [diffoci](https://github.com/reproducible-containers/diffoci) - diffoci compares Docker and OCI container images for helping reproducible builds
+- [tini](https://github.com/krallin/tini) - A tiny but valid `init` for containers
+- [ko](https://github.com/ko-build/ko) - ko is a simple, fast container image builder for Go applications
+- [go-containerregistry](https://github.com/google/go-containerregistry) - Google Go library for working with container images. Includes tools like `crane`, `gcrane`, `krane` & `k8schain`
+- [testcontainers](https://github.com/testcontainers) - open source framework for providing throwaway, lightweight instances of anything that can run in a Docker container
+- [distroless](https://github.com/GoogleContainerTools/distroless) - Language focused docker images, minus the operating system
+- [confidential-containers](https://github.com/confidential-containers/confidential-containers) - leverage Trusted Execution Environments to protect containers and data and to deliver cloud native confidential computing
+- [copacetic](https://github.com/project-copacetic/copacetic) - CLI tool for directly patching container images!
+- [runc](https://github.com/opencontainers/runc) -  CLI tool for spawning and running containers according to the OCI specification
+
+### Shell into containers
+
+- [cdebug](https://github.com/iximiuz/cdebug) - cdebug - a swiss army knife of container debugging
+- [docker-opener](https://github.com/artemkaxboy/docker-opener) - Shell-in to any docker container easily
+- [debug-ctr](https://github.com/felipecruz91/debug-ctr) - Command-line tool for interactive container troubleshooting
+- [docker-debug](https://github.com/zeromake/docker-debug) - troubleshooting running docker containers
+
 ## Continuous deployment
 
 *Tools that enable declarative continuous deployment aka GitOps.*
@@ -335,40 +370,6 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [GraphViz](https://dreampuf.github.io/GraphvizOnline) - create system diagrams in DOT language
 - [Cloudcraft](https://www.cloudcraft.co/) - Create AWS diagrams from deployed infrastructure
 - [Inframap](https://github.com/cycloidio/inframap) - Read your tfstate or HCL to generate a graph specific for each provider
-
-## Docker
-
-*Docker and general container tools.*
-
-- [Dockle](https://github.com/goodwithtech/dockle) - Docker image linting
-- [Container-scan](https://github.com/Azure/container-scan) - Dockle + Trivy [Deprecated]
-- [HadoLint](https://github.com/hadolint/hadolint) - Dockerfile linter, validate inline bash, written in Haskell
-- [docker-bench](https://github.com/docker/docker-bench-security) - checks for dozens of common best-practices
-- [aquasecurity/docker-bench](https://github.com/aquasecurity/docker-bench)
-- [Dive](https://github.com/wagoodman/dive) - A tool for exploring a docker image, layer contents, and discovering ways to shrink the size of your Docker/OCI image
-- [cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers
-- [Docker-slim](https://github.com/docker-slim/docker-slim) - Don't change anything in your Docker container image and minify it by up to 30x
-- [dfimage](https://github.com/LanikSJ/dfimage) - Reverse-engineer a Dockerfile from a Docker image
-- [Whaler](https://github.com/P3GLEG/Whaler) - Go program to reverse Docker images into Dockerfiles
-- [anchore-engine](https://github.com/anchore/anchore-engine) - A service that analyzes docker images and scans for vulnerabilities
-- [grype](https://github.com/anchore/grype) - A vulnerability scanner for container images and filesystems
-- [Trivy](https://github.com/aquasecurity/trivy) - Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more
-- [docker-trim](https://github.com/tzickel/docker-trim) - create a trimmed docker image that contains only parts of the original file system of an existing docker image
-- [diffoci](https://github.com/reproducible-containers/diffoci) - diffoci compares Docker and OCI container images for helping reproducible builds
-- [tini](https://github.com/krallin/tini) - A tiny but valid `init` for containers
-- [ko](https://github.com/ko-build/ko) - ko is a simple, fast container image builder for Go applications
-- [go-containerregistry](https://github.com/google/go-containerregistry) - Google Go library for working with container images. Includes tools like `crane`, `gcrane`, `krane` & `k8schain`
-- [testcontainers](https://github.com/testcontainers) - open source framework for providing throwaway, lightweight instances of anything that can run in a Docker container
-- [distroless](https://github.com/GoogleContainerTools/distroless) - Language focused docker images, minus the operating system
-- [confidential-containers](https://github.com/confidential-containers/confidential-containers) - leverage Trusted Execution Environments to protect containers and data and to deliver cloud native confidential computing
-- [copacetic](https://github.com/project-copacetic/copacetic) - CLI tool for directly patching container images!
-
-### Shell into containers
-
-- [cdebug](https://github.com/iximiuz/cdebug) - cdebug - a swiss army knife of container debugging
-- [docker-opener](https://github.com/artemkaxboy/docker-opener) - Shell-in to any docker container easily
-- [debug-ctr](https://github.com/felipecruz91/debug-ctr) - Command-line tool for interactive container troubleshooting
-- [docker-debug](https://github.com/zeromake/docker-debug) - troubleshooting running docker containers
 
 ## Documentation as code
 
