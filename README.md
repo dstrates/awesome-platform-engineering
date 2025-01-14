@@ -549,7 +549,7 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 ### Kubernetes templating
 
 - [helm](https://github.com/helm/helm) - The Kubernetes Package Manager
-- [helmfile](https://github.com/roboll/helmfile) - Deploy Kubernetes Helm Charts
+- [helmfile](https://github.com/helmfile/helmfile) - Deploy Kubernetes Helm Charts
 - [helm-unittest](https://github.com/helm-unittest/helm-unittest) - BDD styled unit test framework for Kubernetes Helm charts as a Helm plugin
 - [kustomize](https://github.com/kubernetes-sigs/kustomize) - Customization of kubernetes YAML configurations
 - [ytt](https://github.com/carvel-dev/ytt) - YAML templating tool that works on YAML structure instead of text
