@@ -345,6 +345,7 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [knip](https://github.com/webpro/knip) - Find unused files, dependencies and exports in your JavaScript and TypeScript projects
 - [just](https://github.com/casey/just) - just is a handy way to save and run project-specific commands
 - [changesets](https://github.com/changesets/changesets) - A way to manage your versioning and changelogs with a focus on monorepos
+- [earthly](https://github.com/earthly/earthly) - Super simple build framework with fast, repeatable builds and an instantly familiar syntax – like Dockerfile and Makefile had a baby.
 
 ### Build systems
 
