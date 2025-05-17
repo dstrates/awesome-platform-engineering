@@ -685,6 +685,8 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 ## Testing
 
 - [QA Wolf](https://www.qawolf.com/) - QA Wolf gets web apps to 80% automated end-to-end test coverage in weeks, not years
+- [gretel](https://gretel.ai/) - Generate artificial, synthetic datasets with the same characteristics as real data
+- [shadowtraffic](https://shadowtraffic.io/) - Rapidly simulate production traffic to your backend
 
 ### A/B testing
 
