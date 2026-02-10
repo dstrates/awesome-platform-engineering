@@ -63,7 +63,7 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
   - [Status pages](#status-pages)
   - [Testing](#testing)
     - [A/B testing](#ab-testing)
-    - [Load, stress \& soak testing](#load-stress--soak-testing)
+    - [Performance testing](#performance-testing)
   - [Usage-based pricing](#usage-based-pricing)
 
 ## Analytics
@@ -88,6 +88,7 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
 - [Snapchange](https://github.com/awslabs/snapchange) - Lightweight fuzzing of a memory snapshot using KVM
 - [Onefuzz](https://github.com/microsoft/onefuzz) - A self-hosted Fuzzing-As-A-Service platform
 - [OSS-Fuzz](https://github.com/google/oss-fuzz) - continuous fuzzing for open source software
+- [GraphQLer](https://github.com/omar2535/GraphQLer) - A cutting edge context aware GraphQL API fuzzing tool
 
 ### DAST
 
@@ -245,7 +246,7 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 
 ## Cloud asset inventory
 
-*Cloud asset inventory and Cloud Security Posture Management tools.*
+*Cloud asset inventory and Cloud Security Posture Management (CPSM) tools.*
 
 - [Steampipe](https://steampipe.io/) - `# select * from cloud;`
 - [Resoto](https://github.com/someengineering/resoto) -  Resoto creates an inventory of your cloud, provides deep visibility, and reacts to changes in your infrastructure
@@ -696,10 +697,13 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [VWO Testing](https://vwo.com/testing/) - A/B testing
 - [Split](https://www.split.io/product/feature-flags/) - managed feature flags and rollouts
 - [Sitespect](https://www.sitespect.com/testing-and-experimentation/) - A/B testing and site optimization
+- [Flagsmith](https://github.com/Flagsmith/flagsmith) - Flagsmith is an open source feature flagging and remote config service.
+- [Unleash](https://github.com/Unleash/unleash) - Open-source feature management platform
+- [OpenFeature](https://github.com/open-feature/spec) - OpenFeature is an open specification that provides a vendor-agnostic, community-driven API for feature flagging that works with your favorite feature flag management tool or in-house solution.
 
-### Load, stress & soak testing
+### Performance testing
 
-*Performance testing tools. Does it run? Does it scale?*
+*Load, stress & soak testing, and profiling tools. Does it run? Does it scale?*
 
 - [k6](https://k6.io/) - cloud-native load tests written in JS
 - [Artillery](https://www.artillery.io/) - cloud-scale performance testing
@@ -712,6 +716,8 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [Siege](https://www.joedog.org/siege-home/) - HTTP load testing and benchmarking utility
 - [Wrk](https://github.com/wg/wrk) - Modern HTTP benchmarking tool
 - [Web Bench](http://home.tiscali.cz/~cz210552/webbench.html) - Web Bench is very simple tool for benchmarking WWW or proxy servers
+- [fgprof](https://github.com/felixge/fgprof) - fgprof is a sampling Go profiler that allows you to analyze On-CPU as well as Off-CPU (e.g. I/O) time together.
+- [perfetto](https://github.com/google/perfetto) - Production-grade client-side tracing, profiling, and analysis for complex software systems.
 
 ## Usage-based pricing
 
