@@ -65,6 +65,7 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
     - [A/B testing](#ab-testing)
     - [Performance testing](#performance-testing)
   - [Usage-based pricing](#usage-based-pricing)
+- [KubeStellar Console](https://github.com/kubestellar/console) - Multi-cluster Kubernetes dashboard with AI-powered operations, real-time observability, and CNCF project integrations across edge and cloud clusters.
 
 ## Analytics
 
