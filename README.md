@@ -531,6 +531,7 @@ See: [SLSA - Software Attestations](https://slsa.dev/attestation-model)
 - [pluto](https://github.com/FairwindsOps/pluto) - A cli tool to help discover deprecated apiVersions in Kubernetes
 - [kubent](https://github.com/doitintl/kube-no-trouble) - Easily check your clusters for use of deprecated APIs
 - [Popeye](https://github.com/derailed/popeye) - A Kubernetes cluster resource sanitizer
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source (GPL-3.0) autonomous AI penetration testing platform covering web, API, Active Directory and Kubernetes.
 - [kube-bench](https://github.com/aquasecurity/kube-bench) - Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark
 - [kube-no-trouble](https://github.com/doitintl/kube-no-trouble) - Easily check your clusters for use of deprecated APIs
 - [nova](https://github.com/FairwindsOps/Nova) - Find outdated or deprecated Helm charts running in your cluster
