@@ -175,6 +175,7 @@ A curated list of amazingly awesome Platform tools, resources and various shiny 
 
 - [Vacuum](https://github.com/daveshanley/vacuum) - vacuum is the worlds fastest OpenAPI 3, OpenAPI 2 / Swagger linter and quality analysis tool. Built in go, it tears through API specs faster than you can think. vacuum is compatible with Spectral rulesets and generates compatible reports
 - [Spectral](https://github.com/stoplightio/spectral) - A flexible JSON/YAML linter for creating automated style guides, with baked in support for OpenAPI v3.1, v3.0, and v2.0 as well as AsyncAPI v2.x.
+- [NextJSON](https://nextjson.com/) - Free online nested JSON parser, formatter and JSON toolbox
 - [SwaggerHub](https://swagger.io/tools/swaggerhub/)
 - [oasdiff](https://github.com/Tufin/oasdiff) - OpenAPI Diff and Breaking Changes
 - [openapi-diff](https://github.com/OpenAPITools/openapi-diff) - Utility for comparing two OpenAPI specifications.
